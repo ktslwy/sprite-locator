@@ -1,0 +1,62 @@
+
+* {
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+h2 {
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+h3 {
+    margin: 0 0 10px;
+    font-size: 1em;
+}
+input {
+    margin: 0;
+}
+#tool {
+    width: 100%;
+    overflow: hidden;
+}
+#canvas-container {
+    width: 49.5%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: scroll;
+    float: left;
+}
+#controls-container {
+    width: 49.5%;
+    float: right;
+}
+#reload-button {
+    vertical-align: middle;
+}
+#steps {
+    list-style: none;
+    padding-left: 0px;
+}
+#steps li {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+#steps p {
+    margin: 5px 0;
+    font-size: 0.7em;
+}
+#background-rgb {
+    width: 100px;
+    text-align: center;
+}
+#sprite-info {
+    width: 350px;
+    text-align: center;
+}
+#sprite {
+    margin-top: 10px;
+    border: 1px solid black;
+}

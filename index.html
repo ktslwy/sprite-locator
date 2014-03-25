@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Sprite Locator Tool</title>
+<link rel='stylesheet' type='text/css' href='css/styles.css'/>
+</head>
+
+<body>
+
+<h1>Sprite Locator Tool</h1>
+
+<div id='tool'>
+    <div id='canvas-container'>
+        <canvas id='canvas' width='0' height='0'/>
+    </div>
+    <div id='controls-container'>
+        <h2>Steps to locate the sprite inside a spritesheet</h2>
+        <ol id='steps'>
+            <li>
+                <h3>Step 1: Choose a local file or <button id='reload-button'>Reload</button> image</h3>
+                <input type='file' name='img' size='65' id='load-image'/>
+            </li>
+            <li>
+                <h3>Step 2: Background color is automatically detected</h3>
+                <p>To set a different value, remove the value in the box below and click on the area between sprites.</p>
+                <p>Background color: <input type='text' id='background-rgb'/></p>
+            </li>
+            <li>
+                <h3>Step 3: Click on the sprite to locate it</h3>
+                <p>To group multiple non-connected areas in one sprite, hold down CTRL or COMMAND key to click on them.</p>
+            </li>
+            <li>
+                <h3>Step 4: Verify the located sprite</h3>
+                <p>Sprite info: <input type='text' id='sprite-info'/></p>
+                <canvas id='sprite' width='50' height='50'/>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<script src='js/sprite-locator.js'></script>
+<script src='js/app.js'></script>
+
+</body>
+
+</html>
