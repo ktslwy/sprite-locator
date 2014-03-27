@@ -1,18 +1,32 @@
-
 * {
-    font-family: Arial;
+    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+a {
+    color: #39c;
+    font-weight: 400;
+    text-decoration: none;
 }
 h1 {
     text-align: center;
     font-size: 2em;
+    border-bottom: 2px solid black;
+    margin: 15px 0 30px;
+    color: #393939;
+    font-weight: bold;
 }
 h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 1.3em;
+    color: #393939;
+    font-weight: bold;
 }
 h3 {
     margin: 0 0 10px;
     font-size: 1em;
+    color: #393939;
+    font-weight: bold;
 }
 input {
     margin: 0;
@@ -27,6 +41,7 @@ input {
     border: 1px solid black;
     overflow: scroll;
     float: left;
+    background-color: #eef;
 }
 #controls-container {
     width: 49.5%;
@@ -34,6 +49,10 @@ input {
 }
 #reload-button {
     vertical-align: middle;
+    height: 20px;
+    line-height: 15px;
+    color: #393939;
+    font-weight: bold;
 }
 #steps {
     list-style: none;
@@ -44,19 +63,29 @@ input {
     padding-top: 10px;
     border-top: 1px solid black;
 }
+#steps li:first-child {
+    margin-top: 10px;
+}
 #steps p {
     margin: 5px 0;
-    font-size: 0.7em;
+    font-size: 0.85em;
 }
 #background-rgb {
     width: 100px;
     text-align: center;
 }
 #sprite-info {
-    width: 350px;
+    width: 450px;
     text-align: center;
 }
 #sprite {
     margin-top: 10px;
     border: 1px solid black;
+}
+#load-image {
+    line-height: 0;
+}
+#footer {
+    border-top: 2px solid black;
+    margin-top: 30px;
 }

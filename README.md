@@ -1,6 +1,6 @@
 sprite-locator
 ==============
 
-Locate sprite inside a spritesheet
+A Tool for locate sprite coordinates inside a spritesheet. Try it here:
 
-http://ktslwy.github.io/sprite-locator/
+https://ktslwy.github.io/sprite-locator/
